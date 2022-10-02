@@ -164,6 +164,11 @@ background-color:var(--bhero-button-active);
         line-height: 1.14;
     text-transform: uppercase;
 }
+
+.section .text{
+    font-size: 16px;
+        line-height: 1.19;
+}
 /* Чим ми займаємося */
 
 /* Наша команда */
@@ -182,6 +187,13 @@ background-color:var(--bhero-button-active);
         line-height: 1.19;
 }
 
+.section-team .text-tim{
+    font-size: 16px;
+        line-height: 19px;
+}
+
+
+
 /* Нащі роботи */
 
 .filter-button{
@@ -189,6 +201,9 @@ cursor: pointer;
 color: var(--secondary-text-color);
 background-color: var(--secondary-background-color);
 font-family: inherit;
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
  }
 
 .filter-button:hover,
@@ -197,12 +212,17 @@ font-family: inherit;
     background-color: var(--accent);
  }
 
-.works-title {
+.section-works .works-title {
     color: var(--secondary-text-color);
-    font-weight: 700;
-        font-size: 18px;
+           font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+}
+
+
+.section-works .works-text{
+    font-size: 16px;
+        line-height: 1.9;
 }
 
  
