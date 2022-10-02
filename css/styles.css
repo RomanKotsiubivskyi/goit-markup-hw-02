@@ -212,6 +212,10 @@ font-weight: 500;
     background-color: var(--accent);
  }
 
+.filter-button.current {
+    color: var(--white-color);
+    background-color: var(--accent);
+}
 .section-works .works-title {
     color: var(--secondary-text-color);
            font-size: 18px;
